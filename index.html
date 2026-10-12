@@ -1,1 +1,151 @@
 
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="SOMA Yoga Studio — a calm space to move, breathe and reconnect.">
+  <title>SOMA Yoga Studio | Move With Intention</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600&family=Vazirmatn:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="#home" aria-label="SOMA home">SOMA<span>.</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav class="main-nav" id="mainNav">
+      <a href="#about" data-en="Our philosophy" data-fa="فلسفهٔ ما">Our philosophy</a>
+      <a href="#classes" data-en="Classes" data-fa="کلاس‌ها">Classes</a>
+      <a href="#schedule" data-en="Schedule" data-fa="برنامهٔ هفتگی">Schedule</a>
+      <a href="#teachers" data-en="Our teachers" data-fa="مربیان ما">Our teachers</a>
+      <a href="#contact" class="nav-cta" data-en="Book a class" data-fa="رزرو کلاس">Book a class</a>
+    </nav>
+    <button class="language-toggle" id="languageToggle" type="button">فارسی</button>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-image" role="img" aria-label="Sunlit yoga studio"></div>
+      <div class="hero-content">
+        <p class="eyebrow" data-en="A SPACE TO COME BACK TO YOURSELF" data-fa="فضایی برای بازگشت به خود">A SPACE TO COME BACK TO YOURSELF</p>
+        <h1 data-en-html="Find your balance.<br>Feel your <em>whole self.</em>" data-fa-html="تعادل خود را پیدا کن.<br><em>خودِ واقعی‌ات</em> را احساس کن.">Find your balance.<br>Feel your <em>whole self.</em></h1>
+        <p class="hero-description" data-en="Thoughtful movement, mindful breathing, and a little more room to be you." data-fa="حرکتی آگاهانه، تنفسی آرام و فرصتی بیشتر برای خودت بودن.">Thoughtful movement, mindful breathing, and a little more room to be you.</p>
+        <div class="hero-actions">
+          <a class="button button-dark" href="#classes" data-en="Explore our classes" data-fa="کلاس‌های ما">Explore our classes</a>
+          <a class="text-link" href="#about" data-en="Discover SOMA ↗" data-fa="آشنایی با سوما ↗">Discover SOMA ↗</a>
+        </div>
+        <div class="hero-note"><span class="note-dot"></span><span data-en="Move gently. Live fully." data-fa="آرام حرکت کن؛ کامل زندگی کن.">Move gently. Live fully.</span></div>
+      </div>
+      <div class="hero-stamp"><span>BREATH</span><span class="stamp-star">✳</span><span>BODY</span><span class="stamp-star">✳</span><span>MIND</span></div>
+    </section>
+
+    <section class="intro section-pad" id="about">
+      <div class="section-label"><span>01</span><span data-en="THE SOMA WAY" data-fa="نگاه سوما">THE SOMA WAY</span></div>
+      <div class="intro-grid">
+        <h2 data-en-html="A softer kind<br>of <em>strength.</em>" data-fa-html="نوعی آرام‌تر<br>از <em>قدرت.</em>">A softer kind<br>of <em>strength.</em></h2>
+        <div class="intro-copy">
+          <p data-en="We believe wellness isn't about pushing harder. It's about listening closer. SOMA is a welcoming space where movement meets mindfulness, and every body gets to begin exactly where it is." data-fa="ما باور داریم تندرستی به معنای فشار آوردن بیشتر نیست؛ یعنی با دقت بیشتری به خودمان گوش بدهیم. سوما فضایی صمیمی است که در آن حرکت و ذهن‌آگاهی به هم می‌رسند و هر بدنی می‌تواند از همان نقطه‌ای شروع کند که در آن قرار دارد.">We believe wellness isn't about pushing harder. It's about listening closer. SOMA is a welcoming space where movement meets mindfulness, and every body gets to begin exactly where it is.</p>
+          <a class="text-link" href="#teachers" data-en="Meet your guides ↗" data-fa="با مربیان آشنا شو ↗">Meet your guides ↗</a>
+        </div>
+      </div>
+      <div class="values-row">
+        <article class="value-card"><span class="value-number">01</span><h3 data-en="Move with care" data-fa="با مراقبت حرکت کن">Move with care</h3><p data-en="Build strength without leaving kindness behind." data-fa="قدرت بساز، بدون آنکه مهربانی با خودت را فراموش کنی.">Build strength without leaving kindness behind.</p></article>
+        <article class="value-card"><span class="value-number">02</span><h3 data-en="Breathe with purpose" data-fa="آگاهانه نفس بکش">Breathe with purpose</h3><p data-en="Make space for calm, one breath at a time." data-fa="با هر نفس، جایی برای آرامش باز کن.">Make space for calm, one breath at a time.</p></article>
+        <article class="value-card"><span class="value-number">03</span><h3 data-en="Grow at your pace" data-fa="با ریتم خودت رشد کن">Grow at your pace</h3><p data-en="Your practice is personal. There is no perfect pace." data-fa="تمرین تو شخصی است؛ هیچ سرعت کاملی وجود ندارد.">Your practice is personal. There is no perfect pace.</p></article>
+      </div>
+    </section>
+
+    <section class="classes-section section-pad" id="classes">
+      <div class="section-heading">
+        <div><div class="section-label"><span>02</span><span data-en="FIND YOUR FLOW" data-fa="جریان خودت را پیدا کن">FIND YOUR FLOW</span></div><h2 data-en-html="Practice that meets<br><em>you where you are.</em>" data-fa-html="تمرینی که از<br><em>همین‌جا با تو شروع می‌شود.</em>">Practice that meets<br><em>you where you are.</em></h2></div>
+        <p data-en="Different days call for different kinds of care. Find the class that feels right for you." data-fa="روزهای متفاوت به مراقبت‌های متفاوت نیاز دارند. کلاسی را پیدا کن که برای امروزت مناسب است.">Different days call for different kinds of care. Find the class that feels right for you.</p>
+      </div>
+      <div class="class-grid">
+        <article class="class-card">
+          <img src="https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&w=900&q=85" alt="Yoga practice in a peaceful studio">
+          <div class="class-card-body"><div class="class-meta"><span data-en="01 / GROUNDING" data-fa="۰۱ / آرامش و ثبات">01 / GROUNDING</span><span>50 MIN</span></div><h3>Hatha Yoga</h3><p data-en="A steady, accessible practice to improve posture, flexibility, and body awareness." data-fa="تمرینی آرام و قابل‌دسترس برای بهبود وضعیت بدن، انعطاف‌پذیری و آگاهی بدنی.">A steady, accessible practice to improve posture, flexibility, and body awareness.</p><a class="text-link" href="#contact" data-en="Find your class ↗" data-fa="انتخاب کلاس ↗">Find your class ↗</a></div>
+        </article>
+        <article class="class-card class-card-featured">
+          <img src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&w=900&q=85" alt="Mindful movement and yoga">
+          <div class="class-card-body"><div class="class-meta"><span data-en="02 / ENERGY" data-fa="۰۲ / انرژی">02 / ENERGY</span><span>60 MIN</span></div><h3>Vinyasa Flow</h3><p data-en="A flowing sequence that connects breath and movement to build warmth and focus." data-fa="مجموعه‌ای روان از حرکات که تنفس و حرکت را به هم پیوند می‌دهد و تمرکز را افزایش می‌دهد.">A flowing sequence that connects breath and movement to build warmth and focus.</p><a class="text-link" href="#contact" data-en="Find your class ↗" data-fa="انتخاب کلاس ↗">Find your class ↗</a></div>
+        </article>
+        <article class="class-card">
+          <img src="https://images.unsplash.com/photo-1518611012118-696072aa579a?auto=format&fit=crop&w=900&q=85" alt="Stretching and mindful exercise">
+          <div class="class-card-body"><div class="class-meta"><span data-en="03 / ALIGNMENT" data-fa="۰۳ / هماهنگی">03 / ALIGNMENT</span><span>45 MIN</span></div><h3>Mindful Pilates</h3><p data-en="Intentional, low-impact movement for core strength, balance, and control." data-fa="حرکاتی هدفمند و کم‌فشار برای تقویت عضلات مرکزی، تعادل و کنترل بدن.">Intentional, low-impact movement for core strength, balance, and control.</p><a class="text-link" href="#contact" data-en="Find your class ↗" data-fa="انتخاب کلاس ↗">Find your class ↗</a></div>
+        </article>
+      </div>
+      <p class="small-note" data-en="Class descriptions are illustrative. Choose a practice appropriate for your abilities and consult a qualified professional when needed." data-fa="توضیحات کلاس‌ها نمونه هستند. تمرینی متناسب با توانایی خود انتخاب کنید و در صورت نیاز با متخصص واجد شرایط مشورت کنید.">Class descriptions are illustrative. Choose a practice appropriate for your abilities and consult a qualified professional when needed.</p>
+    </section>
+
+    <section class="quote-section">
+      <div class="quote-mark">“</div>
+      <blockquote data-en="You don't have to be flexible to begin. You just have to be willing to show up." data-fa="برای شروع لازم نیست انعطاف‌پذیر باشی؛ فقط کافی است بخواهی قدم اول را برداری.">You don't have to be flexible to begin. You just have to be willing to show up.</blockquote>
+      <p data-en="A little reminder from your SOMA community" data-fa="یادآوری کوچکی از طرف خانوادهٔ سوما">A little reminder from your SOMA community</p>
+    </section>
+
+    <section class="schedule-section section-pad" id="schedule">
+      <div class="section-label"><span>03</span><span data-en="MAKE TIME FOR YOU" data-fa="برای خودت وقت بگذار">MAKE TIME FOR YOU</span></div>
+      <div class="section-heading schedule-heading"><h2 data-en-html="A rhythm that fits<br><em>your life.</em>" data-fa-html="ریتمی هماهنگ با<br><em>زندگی تو.</em>">A rhythm that fits<br><em>your life.</em></h2><p data-en="A sample weekly timetable. Contact us to confirm current class times." data-fa="نمونه‌ای از برنامهٔ هفتگی؛ برای تأیید ساعت کلاس‌ها با ما تماس بگیرید.">A sample weekly timetable. Contact us to confirm current class times.</p></div>
+      <div class="schedule-table">
+        <div class="schedule-row schedule-header"><span data-en="DAY" data-fa="روز">DAY</span><span data-en="CLASS" data-fa="کلاس">CLASS</span><span data-en="TIME" data-fa="ساعت">TIME</span><span data-en="LEVEL" data-fa="سطح">LEVEL</span></div>
+        <div class="schedule-row"><span data-en="MONDAY" data-fa="دوشنبه">MONDAY</span><span>Hatha Yoga</span><span>09:00 AM</span><span data-en="All levels" data-fa="همهٔ سطوح">All levels</span></div>
+        <div class="schedule-row"><span data-en="TUESDAY" data-fa="سه‌شنبه">TUESDAY</span><span>Vinyasa Flow</span><span>06:00 PM</span><span data-en="Intermediate" data-fa="متوسط">Intermediate</span></div>
+        <div class="schedule-row"><span data-en="WEDNESDAY" data-fa="چهارشنبه">WEDNESDAY</span><span>Mindful Pilates</span><span>10:00 AM</span><span data-en="All levels" data-fa="همهٔ سطوح">All levels</span></div>
+        <div class="schedule-row"><span data-en="THURSDAY" data-fa="پنجشنبه">THURSDAY</span><span>Hatha Yoga</span><span>05:30 PM</span><span data-en="Beginner-friendly" data-fa="مناسب مبتدی‌ها">Beginner-friendly</span></div>
+        <div class="schedule-row"><span data-en="SATURDAY" data-fa="شنبه">SATURDAY</span><span>Vinyasa Flow</span><span>09:30 AM</span><span data-en="All levels" data-fa="همهٔ سطوح">All levels</span></div>
+      </div>
+      <p class="small-note" data-en="All times and classes above are sample portfolio content, not a real studio timetable." data-fa="تمام ساعت‌ها و کلاس‌های بالا محتوای نمونه برای نمایش طراحی سایت هستند و برنامهٔ واقعی یک استودیو نیستند.">All times and classes above are sample portfolio content, not a real studio timetable.</p>
+    </section>
+
+    <section class="teachers-section section-pad" id="teachers">
+      <div class="section-heading">
+        <div><div class="section-label"><span>04</span><span data-en="MEET YOUR GUIDES" data-fa="با مربیان آشنا شو">MEET YOUR GUIDES</span></div><h2 data-en-html="Good people.<br><em>Grounded practice.</em>" data-fa-html="آدم‌های خوب؛<br><em>تمرینی ریشه‌دار.</em>">Good people.<br><em>Grounded practice.</em></h2></div>
+        <p data-en="Our fictional studio team is here to make your first step feel a little easier." data-fa="تیم فرضی این استودیو اینجاست تا قدم اول برایت کمی آسان‌تر شود.">Our fictional studio team is here to make your first step feel a little easier.</p>
+      </div>
+      <div class="teacher-grid">
+        <article class="teacher-card"><img src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=700&q=85" alt="Yoga instructor portrait"><h3>Amelia Hart</h3><p data-en="Hatha & mindful movement" data-fa="هاتا یوگا و حرکت آگاهانه">Hatha & mindful movement</p></article>
+        <article class="teacher-card"><img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=700&q=85" alt="Wellness teacher portrait"><h3>Leila Morgan</h3><p data-en="Vinyasa & breathwork" data-fa="وینیاسا و تمرین تنفس">Vinyasa & breathwork</p></article>
+        <article class="teacher-card"><img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=700&q=85" alt="Movement instructor portrait"><h3>Noah Ellis</h3><p data-en="Pilates & alignment" data-fa="پیلاتس و هماهنگی بدن">Pilates & alignment</p></article>
+      </div>
+      <p class="small-note" data-en="Names and instructor profiles are fictional, for demonstration purposes." data-fa="نام‌ها و معرفی مربیان فرضی هستند و فقط برای نمایش طراحی استفاده شده‌اند.">Names and instructor profiles are fictional, for demonstration purposes.</p>
+    </section>
+
+    <section class="contact-section section-pad" id="contact">
+      <div class="contact-copy">
+        <div class="section-label"><span>05</span><span data-en="YOUR NEXT CHAPTER" data-fa="فصل بعدی تو">YOUR NEXT CHAPTER</span></div>
+        <h2 data-en-html="Your mat is<br><em>waiting for you.</em>" data-fa-html="مت ورزشی‌ات<br><em>منتظر توست.</em>">Your mat is<br><em>waiting for you.</em></h2>
+        <p data-en="Curious about trying a class? Leave a note and take the first step toward a practice that feels like yours." data-fa="دوست داری یکی از کلاس‌ها را امتحان کنی؟ پیامت را بگذار و اولین قدم را برای شروع تمرینی متناسب با خودت بردار.">Curious about trying a class? Leave a note and take the first step toward a practice that feels like yours.</p>
+        <div class="contact-detail"><span>✳</span><span data-en="A welcoming space for every body." data-fa="فضایی صمیمی برای همهٔ بدن‌ها.">A welcoming space for every body.</span></div>
+      </div>
+      <form class="contact-form" id="contactForm">
+        <label for="name" data-en="YOUR NAME" data-fa="نام شما">YOUR NAME</label>
+        <input id="name" name="name" type="text" placeholder="Your name" data-en-placeholder="Your name" data-fa-placeholder="نام شما" required>
+        <label for="email" data-en="EMAIL ADDRESS" data-fa="آدرس ایمیل">EMAIL ADDRESS</label>
+        <input id="email" name="email" type="email" placeholder="you@example.com" required>
+        <label for="classChoice" data-en="I'M INTERESTED IN" data-fa="به این کلاس علاقه‌مندم">I'M INTERESTED IN</label>
+        <select id="classChoice" name="classChoice">
+          <option value="Hatha Yoga">Hatha Yoga</option>
+          <option value="Vinyasa Flow">Vinyasa Flow</option>
+          <option value="Mindful Pilates">Mindful Pilates</option>
+          <option value="Not sure yet" data-en="Not sure yet" data-fa="هنوز مطمئن نیستم">Not sure yet</option>
+        </select>
+        <label for="message" data-en="ANYTHING ELSE? (OPTIONAL)" data-fa="توضیحات بیشتر (اختیاری)">ANYTHING ELSE? (OPTIONAL)</label>
+        <textarea id="message" name="message" rows="3" placeholder="Tell us a little about what you're looking for..." data-en-placeholder="Tell us a little about what you're looking for..." data-fa-placeholder="کمی دربارهٔ خواسته‌تان برایمان بنویسید..."></textarea>
+        <button class="button button-dark submit-button" type="submit" data-en="Send your inquiry ↗" data-fa="ارسال پیام ↗">Send your inquiry ↗</button>
+        <p class="form-message" id="formMessage" role="status"></p>
+        <p class="form-disclaimer" data-en="Portfolio demo only: this form does not send or store your information." data-fa="این فرم فقط نمایشی است و اطلاعات شما را ارسال یا ذخیره نمی‌کند.">Portfolio demo only: this form does not send or store your information.</p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="logo footer-logo" href="#home">SOMA<span>.</span></a>
+    <p data-en="A little more room to breathe." data-fa="کمی فضای بیشتر برای نفس کشیدن.">A little more room to breathe.</p>
+    <div class="footer-links"><a href="#about" data-en="Our philosophy" data-fa="فلسفهٔ ما">Our philosophy</a><a href="#classes" data-en="Classes" data-fa="کلاس‌ها">Classes</a><a href="#contact" data-en="Contact" data-fa="تماس">Contact</a></div>
+    <p class="copyright">© <span id="year"></span> SOMA Yoga Studio · <span data-en="Portfolio concept" data-fa="نمونه‌کار طراحی سایت">Portfolio concept</span></p>
+  </footer>
+</body>
+</html>
